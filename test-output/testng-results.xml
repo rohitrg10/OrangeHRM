@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-29T17:34:57 IST" name="Default suite" finished-at="2024-02-29T17:35:08 IST" duration-ms="11860">
+  <suite started-at="2024-02-29T17:47:25 IST" name="Default suite" finished-at="2024-02-29T17:47:38 IST" duration-ms="12634">
     <groups>
     </groups>
-    <test started-at="2024-02-29T17:34:57 IST" name="Default test" finished-at="2024-02-29T17:35:08 IST" duration-ms="11860">
-      <class name="Demo.Axis.Attachments">
-        <test-method signature="log()[pri:0, instance:Demo.Axis.Attachments@38c6f217]" started-at="2024-02-29T17:34:57 IST" name="log" finished-at="2024-02-29T17:35:06 IST" duration-ms="9246" status="PASS">
+    <test started-at="2024-02-29T17:47:25 IST" name="Default test" finished-at="2024-02-29T17:47:38 IST" duration-ms="12634">
+      <class name="Demo.Axis.Job">
+        <test-method signature="log()[pri:0, instance:Demo.Axis.Job@38c6f217]" started-at="2024-02-29T17:47:25 IST" name="log" finished-at="2024-02-29T17:47:35 IST" duration-ms="9697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- log -->
-        <test-method is-config="true" signature="addAttachments()[pri:0, instance:Demo.Axis.Attachments@38c6f217]" started-at="2024-02-29T17:35:06 IST" name="addAttachments" finished-at="2024-02-29T17:35:08 IST" duration-ms="2535" status="PASS">
+        <test-method is-config="true" signature="jobs()[pri:0, instance:Demo.Axis.Job@38c6f217]" started-at="2024-02-29T17:47:35 IST" name="jobs" finished-at="2024-02-29T17:47:38 IST" duration-ms="2869" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addAttachments -->
-      </class> <!-- Demo.Axis.Attachments -->
+        </test-method> <!-- jobs -->
+      </class> <!-- Demo.Axis.Job -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
