@@ -1,6 +1,8 @@
 package Demo.Axis;
 
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -21,6 +23,7 @@ public class Attachments extends Login {
 
 		WebElement ele = driver.findElement(By.xpath("(//button[@type='button'][normalize-space()='Add'])[2]"));
 		js.executeScript("arguments[0].scrollIntoView(true);", ele);
+		driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
 		ele.click();
 		System.out.println("Clicked on Add Attachments Button");
 
